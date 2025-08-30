@@ -7,7 +7,8 @@ This project investigates the nonlinear dynamics of a rotational steel shaft und
 - Interactive GUI to adjust shaft properties, applied torques, and simulation settings  
 - Real-time visualization of torque, angular displacement, and friction effects
 - Angular position (θ) graphs showing shaft rotation over time   
-- Synchronized graphs and animations of the shaft face, showing full rotations and peak responses  
+- Synchronized graphs and animations of the shaft face
+- Full rotation counter to track the number of complete shaft rotations  
 - Simulation control panel to run, clear, and replay results  
 - Data outputs suitable for validation against theoretical predictions  
 
@@ -27,7 +28,7 @@ To run this project successfully, follow these steps:
 - Simscape (for physical modeling components)
 4. Add the project folder to MATLAB path  
 - Open MATLAB → Home → Set Path → Add Folder → Save  
-- Make sure each subfolder (scripts, App Designer files, Simulink models, data) is linked to the main project folder so all components can access each other correctly.
+- Make sure each subfolder is linked to the main project folder so all components can access each other correctly.
 
 
 ## Simulink

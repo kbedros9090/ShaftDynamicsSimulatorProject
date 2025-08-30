@@ -26,3 +26,29 @@ To run this project successfully, follow these steps:
 - Simscape (for physical modeling components)
 4. Add the project folder to MATLAB path  
 -  Open MATLAB → Home → Set Path → Add Folder → Save
+
+## Contributing
+Contributions are welcome. Please fork the repository and submit a pull request with suggested improvements or additional features.
+
+## License
+MIT License
+
+## References / Further Reading
+
+Textbooks on rotational dynamics and torsional systems
+MATLAB and Simulink documentation
+Simscape physical modeling examples
+
+---
+
+This README:  
+- Keeps a **single, professional theme**.  
+- Separates **Description** (what & why) from **Features** (what it can do).  
+- Covers **Installation, Usage, Parameters, Validation, License, References**.  
+- Uses clear, **recruiter-friendly language**.  
+
+---
+
+If you want, I can also **make a slightly shorter, “one-page” version** optimized for recruiters who skim quickly, keeping all key points but more concise.  
+
+Do you want me to do that?

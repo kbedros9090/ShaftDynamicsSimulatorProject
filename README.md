@@ -5,7 +5,8 @@ This project investigates the nonlinear dynamics of a rotational steel shaft und
 ## Features
 - Integrated MATLAB and Simulink simulations for frictional and ideal scenarios  
 - Interactive GUI to adjust shaft properties, applied torques, and simulation settings  
-- Real-time visualization of torque, angular displacement, and friction effects  
+- Real-time visualization of torque, angular displacement, and friction effects
+- Angular position (θ) graphs showing shaft rotation over time   
 - Synchronized graphs and animations of the shaft face, showing full rotations and peak responses  
 - Simulation control panel to run, clear, and replay results  
 - Data outputs suitable for validation against theoretical predictions  
@@ -18,14 +19,16 @@ To run this project successfully, follow these steps:
    ```bash
    git clone https://github.com/kbedros9090/ShaftDynamicsSimulatorProject.git
 2. Ensure all project files are in the same folder
-- MATLAB scripts, Simulink models, and supporting data should be in the same directory  
+- MATLAB code and app and Simulink models
 3. Install required software and toolboxes
 - MATLAB (recommended version: R2023a or later)
 - Simulink
 - MATLAB App Designer
 - Simscape (for physical modeling components)
 4. Add the project folder to MATLAB path  
--  Open MATLAB → Home → Set Path → Add Folder → Save
+- Open MATLAB → Home → Set Path → Add Folder → Save  
+- Make sure each subfolder (scripts, App Designer files, Simulink models, data) is linked to the main project folder so all components can access each other correctly.
+
 
 ## Simulink
 - The Simulink model represents the shaft as a physical system with torsional inertia, damping, and applied torque.

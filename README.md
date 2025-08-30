@@ -4,13 +4,14 @@ This project investigates the nonlinear dynamics of a rotational steel shaft und
 
 ## Features
 - Integrated MATLAB and Simulink simulations for frictional and ideal scenarios  
-- Interactive GUI to adjust shaft properties, applied torques, and simulation settings  
+- Interactive and Unifed GUI interface for easy to use environment
+- Adjustable shaft properties and torques
 - Real-time visualization of torque, angular displacement, and friction effects
 - Angular position (θ) graphs showing shaft rotation over time   
-- Synchronized graphs and animations of the shaft face
+- Synchronized and timed graphs and animations of the shaft face
 - Full rotation counter to track the number of complete shaft rotations  
 - Simulation control panel to run, clear, and replay results  
-- Data outputs suitable for validation against theoretical predictions  
+- Graphs of angular displacement (θ) suitable for validation against analytical models
 
 ## Installation / Setup
 
@@ -61,16 +62,12 @@ To run this project successfully, follow these steps:
 
 6. **Visualize and analyze results**  
    - Torque, angular displacement, and friction effects are displayed in the graphs.  
-   - Full rotations are marked in the shaft face animation.  
-   - Data can be exported for further analysis or validation.
-
-**Note:** Make sure all MATLAB scripts and Simulink models are in the same folder or added to the MATLAB path, so the GUI can access all components correctly.
-
+   - Full rotations are marked.
 
 ## Parameters / Configuration
 - inertia – Shaft rotational inertia
 - appliedTorque – Torque applied to the shaft
-- friction – Friction torque coefficient
+- friction – Friction torque 
 - damping – Damping coefficient
 - Simulation settings – duration, step size, GUI options
 
@@ -83,8 +80,8 @@ Contributions are welcome. Please fork the repository and submit a pull request 
 ## License
 MIT License
 
-## References / Further Reading
-
-Textbooks on rotational dynamics and torsional systems
-MATLAB and Simulink documentation
-Simscape physical modeling examples
+## References / Further Reading  
+- [MATLAB Documentation](https://www.mathworks.com/help/matlab/index.html)  
+- [Simulink Documentation](https://www.mathworks.com/help/simulink/index.html)  
+- [Simscape Documentation](https://www.mathworks.com/help/simscape/index.html)  
+- [MATLAB App Designer Documentation](https://www.mathworks.com/help/matlab/app-designer.html)  

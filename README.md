@@ -27,6 +27,9 @@ To run this project successfully, follow these steps:
 4. Add the project folder to MATLAB path  
 -  Open MATLAB → Home → Set Path → Add Folder → Save
 
+## Validation / Results
+Simulation results were validated by comparing peak shaft responses with theoretical predictions. Graphs and GUI animations illustrate how friction and damping affect system behavior. MATLAB simulations (with friction) and Simulink simulations (without friction) can be directly compared for deeper insight.
+
 ## Contributing
 Contributions are welcome. Please fork the repository and submit a pull request with suggested improvements or additional features.
 

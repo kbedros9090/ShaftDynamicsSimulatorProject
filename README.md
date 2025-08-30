@@ -27,6 +27,13 @@ To run this project successfully, follow these steps:
 4. Add the project folder to MATLAB path  
 -  Open MATLAB → Home → Set Path → Add Folder → Save
 
+## Parameters / Configuration
+- inertia – Shaft rotational inertia
+- appliedTorque – Torque applied to the shaft
+- friction – Friction torque coefficient
+- damping – Damping coefficient
+- Simulation settings – duration, step size, GUI options
+
 ## Validation / Results
 Simulation results were validated by comparing peak shaft responses with theoretical predictions. Graphs and GUI animations illustrate how friction and damping affect system behavior. MATLAB simulations (with friction) and Simulink simulations (without friction) can be directly compared for deeper insight.
 

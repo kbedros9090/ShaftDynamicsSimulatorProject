@@ -16,7 +16,7 @@ To run this project successfully, follow these steps:
 
 1. **Clone or download the repository**  
    ```bash
-   git clone https://github.com/username/rotational-shaft-simulator.git
+   git clone https://github.com/kbedros9090/ShaftDynamicsSimulatorProject.git
 2. Ensure all project files are in the same folder
 - MATLAB scripts, Simulink models, and supporting data should be in the same directory  
 3. Install required software and toolboxes

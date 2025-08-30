@@ -75,7 +75,8 @@ To run this project successfully, follow these steps:
 Simulation results were validated by comparing peak shaft responses with theoretical predictions. Graphs and GUI animations illustrate how friction and damping affect system behavior. MATLAB simulations (with friction) and Simulink simulations (without friction) can be directly compared for deeper insight.
 
 ## Contributing
-Contributions are welcome. Please fork the repository and submit a pull request with suggested improvements or additional features.
+Contributions are welcome! You can fix bugs, add features or examples, improve documentation or tests, and suggest enhancements.  
+To contribute, fork the repo, create a branch, commit your changes, and open a pull request.
 
 ## License
 MIT License

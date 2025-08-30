@@ -22,6 +22,7 @@ To run this project successfully, follow these steps:
    git clone https://github.com/kbedros9090/ShaftDynamicsSimulatorProject.git
 2. Ensure all project files are in the same folder
    - MATLAB code and app and Simulink models
+   - Ignore image folder
 3. Install required software and toolboxes
    - MATLAB (recommended version: R2023a or later)
    - Simulink

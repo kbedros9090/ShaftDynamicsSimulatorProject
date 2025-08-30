@@ -27,6 +27,36 @@ To run this project successfully, follow these steps:
 4. Add the project folder to MATLAB path  
 -  Open MATLAB → Home → Set Path → Add Folder → Save
 
+## Usage
+
+1. **Launch the simulation GUI**  
+   - Run `shaftDynamicsSimulator` in MATLAB to open the App Designer interface.  
+   - Default parameters are already set, so the simulation can be run immediately.
+
+2. **Adjust simulation parameters at any time**  
+   - All shaft properties, applied torques, and simulation settings are fully editable through the GUI.  
+   - Parameters can be changed **before or after running the simulation**, without modifying any code.
+
+3. **Run the simulation**  
+   - Click the **Run** button to generate graphs of the results.  
+
+4. **Animate the simulation**  
+   - Check the **Animate** checkbox to synchronize the shaft face animation with the graphs.  
+   - After checking **Animate**, click **Run** again to generate the animated visualization.
+
+5. **Be patient and follow the workflow carefully**  
+   - Avoid running multiple times in rapid succession.  
+   - Make sure all variables and parameters are compatible; incorrect or mismatched values can cause errors.  
+   - Always confirm the settings before clicking **Run** again for animations.
+
+6. **Visualize and analyze results**  
+   - Torque, angular displacement, and friction effects are displayed in the graphs.  
+   - Full rotations are marked in the shaft face animation.  
+   - Data can be exported for further analysis or validation.
+
+**Note:** Make sure all MATLAB scripts and Simulink models are in the same folder or added to the MATLAB path, so the GUI can access all components correctly.
+
+
 ## Parameters / Configuration
 - inertia – Shaft rotational inertia
 - appliedTorque – Torque applied to the shaft

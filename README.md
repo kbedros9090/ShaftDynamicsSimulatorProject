@@ -27,6 +27,12 @@ To run this project successfully, follow these steps:
 4. Add the project folder to MATLAB path  
 -  Open MATLAB → Home → Set Path → Add Folder → Save
 
+## Simulink
+- The Simulink model represents the shaft as a physical system with torsional inertia, damping, and applied torque.
+- It runs without friction to provide a baseline comparison to the MATLAB simulation (which includes friction).
+- All inputs, such as applied torque and shaft properties, are linked to the GUI so the user can modify them dynamically.
+- The simulation outputs angular displacement over time, which is synchronized with the MATLAB results in the GUI animation.
+
 ## Usage
 
 1. **Launch the simulation GUI**  

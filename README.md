@@ -13,6 +13,36 @@ This project investigates the nonlinear dynamics of a rotational steel shaft und
    - Simulation control panel to run, clear, and replay results  
    - Graphs of angular displacement (θ) suitable for validation against analytical models
 
+## File Descriptions
+1. shaftDynamicsSimulator.mlapp
+- Main App Designer GUI for the project
+- Provides controls to run simulations
+- Visualize MATLAB & Simulink results together
+- Displays angular position, and animations
+2. animateShaftFace.m
+- Animates the end view of the rotating shaft with a pointer
+- Synchronizes MATLAB and Simulink simulation outputs for visual comparison
+3. rotationalFunction.m
+- MATLAB function that solves the shaft dynamics numerically
+- Generates plots of angular position for comparison with Simulink results
+4. rotationalODE.m
+- Defines the system of ordinary differential equations (ODEs) for a simple rotating disc
+- Used by rotationalFunction.m for numerical integration
+5. shaftSimulator.m
+- Runs the Simulink model from MATLAB
+- Extracts angular position plots angular motion in the App Designer
+6. rotationalMotionSimulation.slx
+- Simulink model of the rotating shaft system
+- Generates angular position/velocity outputs for comparison with MATLAB
+7. userinput.m
+- Utility function to access numeric field values from the App Designer GUI 
+
+## Simulink
+   - The Simulink model represents the shaft as a physical system with torsional inertia, damping, and applied torque.
+   - It runs without friction to provide a baseline comparison to the MATLAB simulation (which includes friction).
+   - All inputs, such as applied torque and shaft properties, are linked to the GUI so the user can modify them dynamically.
+   - The simulation outputs angular displacement over time, which is synchronized with the MATLAB results in the GUI animation.
+  
 ## Installation / Setup
 
 To run this project successfully, follow these steps:
@@ -31,13 +61,6 @@ To run this project successfully, follow these steps:
 4. Add the project folder to MATLAB path  
    - Open MATLAB → Home → Set Path → Add Folder → Save  
    - Make sure each subfolder is linked to the main project folder so all components can access each other correctly.
-
-
-## Simulink
-   - The Simulink model represents the shaft as a physical system with torsional inertia, damping, and applied torque.
-   - It runs without friction to provide a baseline comparison to the MATLAB simulation (which includes friction).
-   - All inputs, such as applied torque and shaft properties, are linked to the GUI so the user can modify them dynamically.
-   - The simulation outputs angular displacement over time, which is synchronized with the MATLAB results in the GUI animation.
 
 ## Usage
 

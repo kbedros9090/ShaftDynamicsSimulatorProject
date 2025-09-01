@@ -82,12 +82,15 @@ To run this project successfully, follow these steps:
    - Torque, angular displacement, and friction effects are displayed in the graphs  
    - Full rotations are marked
 
-## Parameters / Configuration
-- inertia – Shaft rotational inertia
-- appliedTorque – Torque applied to the shaft
-- friction – Friction torque 
-- damping – Damping coefficient
-- Simulation settings – duration, step size, GUI options
+## Parameters
+
+| Parameter           | Description                         |
+|--------------------|-------------------------------------|
+| inertia             | Shaft rotational inertia             |
+| appliedTorque       | Torque applied to the shaft          |
+| friction            | Friction torque                      |
+| damping             | Damping coefficient                  |
+| Simulation settings | Duration, step size, GUI options    |
 
 ## Validation / Results
 Simulation results were validated by comparing peak shaft responses with theoretical predictions. Graphs and GUI animations illustrate how friction and damping affect system behavior. MATLAB simulations (with friction) and Simulink simulations (without friction) can be directly compared for deeper insight.

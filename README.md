@@ -3,13 +3,13 @@
 This project investigates the nonlinear dynamics of a rotational steel shaft under motor-applied torque as a multidomain system. It compares MATLAB (with friction) and Simulink simulations (without friction). A custom GUI synchronizes MATLAB and Simulink/Simscape results in a linked animation for direct visual comparison over time. Validation is achieved by examining peak responses in graphs and through numerical comparison. The study demonstrates how friction influences shaft behavior, providing insight for the design and control of rotational systems.
 
 ## Features
-   - Integrated MATLAB and Simulink simulations for frictional and ideal scenarios  
-   - Interactive and Unified GUI that serves as the hub for the project
+   - Integrated MATLAB and Simulink simulations
+   - Interactive and Unified
    - Adjustable shaft properties and torques
    - Real-time visualization of torque, angular displacement, and friction effects
-   - Angular position (θ) graphs showing shaft rotation over time   
+   - Wrapped angular position (θ) graphs  
    - Synchronized and timed graphs and animations of the shaft face
-   - Full rotation counter to track the number of complete shaft rotations  
+   - Full rotation counter
    - Simulation control panel to run, clear, and replay results  
 
 ## File Descriptions
@@ -19,26 +19,26 @@ This project investigates the nonlinear dynamics of a rotational steel shaft und
 - Visualize MATLAB & Simulink results together
 2. animateShaftFace.m
 - Animates the end view of the rotating shaft with a pointer
-- Synchronizes MATLAB and Simulink simulation outputs for visual comparison
+- Synchronizes MATLAB and Simulink simulation outputs 
 3. rotationalFunction.m
 - MATLAB function that solves the shaft dynamics numerically
-- Generates plots of angular position for comparison with Simulink results
+- Generates plots of angular position
 4. rotationalODE.m
 - Defines the system of ordinary differential equations (ODEs) for a simple rotating disc
-- Used by rotationalFunction.m for numerical integration
+- Used by rotationalFunction.m 
 5. shaftSimulator.m
 - Runs the Simulink model from MATLAB
 - Extracts angular position plots angular motion in the App Designer
 6. rotationalMotionSimulation.slx
 - Simulink model of the rotating shaft system
-- Generates angular position/velocity outputs for comparison with MATLAB
+- Generates angular position/velocity outputs 
 7. userinput.m
 - Utility function to access numeric field values from the App Designer GUI 
 
 ## Simulink Model
    - The Simulink model represents the shaft as a physical system with torsional inertia, damping, and applied torque.
    - It runs without friction to provide a baseline comparison to the MATLAB simulation (which includes friction).
-   - All inputs, such as applied torque and shaft properties, are linked to the GUI so the user can modify them dynamically.
+   - All inputs, such as applied torque and shaft properties, are linked to the GUI.
    - The simulation outputs angular displacement over time, which is synchronized with the MATLAB results in the GUI animation.
   
 ## Installation / Setup
@@ -58,7 +58,7 @@ To run this project successfully, follow these steps:
    - Simscape (for physical modeling components)
 4. Add the project folder to MATLAB path  
    - Open MATLAB → Home → Set Path → Add Folder → Save  
-   - Make sure each subfolder is linked to the main project folder so all components can access each other correctly.
+   - Make sure each subfolder is linked to the main project folder
 
 ## Usage
 

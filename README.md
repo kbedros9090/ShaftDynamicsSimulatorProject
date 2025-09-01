@@ -11,14 +11,12 @@ This project investigates the nonlinear dynamics of a rotational steel shaft und
    - Synchronized and timed graphs and animations of the shaft face
    - Full rotation counter to track the number of complete shaft rotations  
    - Simulation control panel to run, clear, and replay results  
-   - Graphs of angular displacement (θ) suitable for validation against analytical models
 
 ## File Descriptions
 1. shaftDynamicsSimulator.mlapp
-- Main App Designer GUI for the project
+- GUI for the project
 - Provides controls to run simulations
 - Visualize MATLAB & Simulink results together
-- Displays angular position, and animations
 2. animateShaftFace.m
 - Animates the end view of the rotating shaft with a pointer
 - Synchronizes MATLAB and Simulink simulation outputs for visual comparison

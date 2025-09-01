@@ -4,7 +4,7 @@ This project investigates the nonlinear dynamics of a rotational steel shaft und
 
 ## Features
    - Integrated MATLAB and Simulink simulations for frictional and ideal scenarios  
-   - Interactive and Unifed GUI interface for easy to use environment
+   - Interactive and Unified GUI that serves as the hub for the project
    - Adjustable shaft properties and torques
    - Real-time visualization of torque, angular displacement, and friction effects
    - Angular position (θ) graphs showing shaft rotation over time   
@@ -35,7 +35,7 @@ This project investigates the nonlinear dynamics of a rotational steel shaft und
 7. userinput.m
 - Utility function to access numeric field values from the App Designer GUI 
 
-## Simulink
+## Simulink Model
    - The Simulink model represents the shaft as a physical system with torsional inertia, damping, and applied torque.
    - It runs without friction to provide a baseline comparison to the MATLAB simulation (which includes friction).
    - All inputs, such as applied torque and shaft properties, are linked to the GUI so the user can modify them dynamically.
@@ -99,13 +99,13 @@ Simulation results were validated by comparing peak shaft responses with theoret
 ## Project Visualization 
 The project includes two images in the `images/` folder: 
 1. GUI Interface (`GUIInterface.png`)
-2. 2. Simulink block model (`SimulinkModel.png`)
+2. Simulink block model (`SimulinkModel.png`)
 
 ## Contributing
 Contributions are welcome! You can fix bugs, add features or examples, improve documentation or tests, and suggest enhancements.  
 To contribute, fork the repo, create a branch, commit your changes, and open a pull request.
 
-## Lictycense
+## License
 
 ## References / Further Reading  
 - [MATLAB Documentation](https://www.mathworks.com/help/matlab/index.html)  

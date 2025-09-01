@@ -106,6 +106,7 @@ Contributions are welcome! You can fix bugs, add features or examples, improve d
 To contribute, fork the repo, create a branch, commit your changes, and open a pull request.
 
 ## License
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for full details.
 
 ## References / Further Reading  
 - [MATLAB Documentation](https://www.mathworks.com/help/matlab/index.html)  

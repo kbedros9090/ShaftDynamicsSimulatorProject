@@ -79,7 +79,7 @@ To run this project successfully, follow these steps:
    - Check the **Animate** checkbox to synchronize the shaft face animation with the graphs  
    - After checking **Animate**, click **Run** again to generate the animated visualization
 
-5. Common Issues and Troubleshooting
+5. Known Issues
    - Avoid running multiple times in rapid succession  
    - Make sure all variables and parameters are compatible; incorrect or mismatched values can cause errors
    - Always confirm the settings before clicking **Run** again for animations

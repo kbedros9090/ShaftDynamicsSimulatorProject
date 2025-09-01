@@ -64,23 +64,19 @@ To run this project successfully, follow these steps:
 
 1. Launch the simulation GUI  
    - Run `shaftDynamicsSimulator` in MATLAB to open the App Designer interface  
-   - Default parameters are already set, so the simulation can be run immediately
 
 2. Adjust simulation parameters at any time  
    - All shaft properties, applied torques, and simulation settings are fully editable through the GUI
-   - Parameters can be changed **before or after running the simulation**, without modifying any code
 
 3. Run the simulation  
    - Click the **Run** button to generate graphs of the results  
 
-4. Animate the simulation  
-   - Check the **Animate** checkbox to synchronize the shaft face animation with the graphs  
+4. Animate the simulation   
    - After checking **Animate**, click **Run** again to generate the animated visualization
 
 5. Known Issues
    - Avoid running multiple times in rapid succession  
    - Make sure all variables and parameters are compatible; incorrect or mismatched values can cause errors
-   - Always confirm the settings before clicking **Run** again for animations
 
 6. Visualize and analyze results  
    - Torque, angular displacement, and friction effects are displayed in the graphs  

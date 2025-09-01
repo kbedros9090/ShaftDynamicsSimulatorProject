@@ -56,7 +56,7 @@ To run this project successfully, follow these steps:
    - Check the **Animate** checkbox to synchronize the shaft face animation with the graphs  
    - After checking **Animate**, click **Run** again to generate the animated visualization
 
-5. Be patient and follow the workflow carefully  
+5. Common Issues and Troubleshooting
    - Avoid running multiple times in rapid succession  
    - Make sure all variables and parameters are compatible; incorrect or mismatched values can cause errors
    - Always confirm the settings before clicking **Run** again for animations
@@ -85,8 +85,7 @@ The project includes two images in the `images/` folder:
 Contributions are welcome! You can fix bugs, add features or examples, improve documentation or tests, and suggest enhancements.  
 To contribute, fork the repo, create a branch, commit your changes, and open a pull request.
 
-## License
-MIT License
+## Lictycense
 
 ## References / Further Reading  
 - [MATLAB Documentation](https://www.mathworks.com/help/matlab/index.html)  

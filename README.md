@@ -75,8 +75,9 @@ To run this project successfully, follow these steps:
    - After checking **Animate**, click **Run** again to generate the animated visualization
 
 5. Known Issues
-   - Avoid running multiple times in rapid succession  
-   - Make sure all variables and parameters are compatible; incorrect or mismatched values can cause errors
+- Rapid repeated runs may cause errors
+- Incorrect or incompatible parameters can prevent execution
+- Missing files or unconfirmed settings can break animations
 
 6. Visualize and analyze results  
    - Torque, angular displacement, and friction effects are displayed in the graphs  
@@ -97,9 +98,11 @@ Simulation results were validated by comparing peak shaft responses with theoret
 
 ## Project Visualization
 
-The project includes two images in the `images/` folder:  
-1. GUI Interface (`GUIInterface.png`)  
-2. Simulink block model (`SimulinkModel.png`)
+### GUI Interface
+![GUI Interface](images/GUIInterface.png)
+
+### Simulink Block Model
+![Simulink Model](images/SimulinkModel.png)
 
 ## Contributing
 Contributions are welcome! You can fix bugs, add features or examples, improve documentation or tests, and suggest enhancements.  
